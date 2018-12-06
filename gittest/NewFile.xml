@@ -6,7 +6,7 @@
 
 <test name="What Ever name test">
   <classes>
-<class name="guru99.gittest"/>
+<class name="guru99.gittest.App"/>
   </classes>
 
 </test>
