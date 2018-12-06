@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite name - Regression TestSuite]">
+  <test thread-count="5" name="What Ever name test(failed)">
     <classes>
       <class name="guru99.gittest.App">
         <methods>
@@ -10,5 +10,5 @@
         </methods>
       </class> <!-- guru99.gittest.App -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- What Ever name test(failed) -->
+</suite> <!-- Failed suite [Suite name - Regression TestSuite] -->

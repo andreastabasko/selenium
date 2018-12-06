@@ -2,28 +2,23 @@ package guru99.gittest;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
+public class App {
+
+	private WebDriver driver;
+	private String baseUrl;
 	
-	private static WebDriver driver;
-	private static String baseUrl;
 
 	@BeforeClass
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ANDY\\Downloads\\chromedriver.exe");
+	public void beforeClass() {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\ANDY\\Downloads\\chromedriver.exe");
         driver = new ChromeDriver();
 		baseUrl = "https://www.expedia.com/";
 
@@ -32,6 +27,8 @@ public class App
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//PropertyConfigurator.configure("log4j.properties");
 		driver.get(baseUrl);
+		
+		
 	}
 
 	@Test

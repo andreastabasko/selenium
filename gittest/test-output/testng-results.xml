@@ -1,54 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27" started-at="2018-12-06T05:59:06Z" finished-at="2018-12-06T05:59:06Z">
+  <suite name="Default suite" duration-ms="10784" started-at="2018-12-06T06:43:08Z" finished-at="2018-12-06T06:43:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27" started-at="2018-12-06T05:59:06Z" finished-at="2018-12-06T05:59:06Z">
+    <test name="Default test" duration-ms="10784" started-at="2018-12-06T06:43:08Z" finished-at="2018-12-06T06:43:19Z">
       <class name="guru99.gittest.App">
-        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:guru99.gittest.App@5c7fa833]" name="main" is-config="true" duration-ms="0" started-at="2018-12-05T21:59:06Z" finished-at="2018-12-05T21:59:06Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method main requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method main requires 1 parameters but 0 were supplied in the @Configuration annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:guru99.gittest.App@647e447]" name="beforeClass" is-config="true" duration-ms="9168" started-at="2018-12-06T06:43:08Z" finished-at="2018-12-06T06:43:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="SKIP" signature="fillBasicInfo()[pri:0, instance:guru99.gittest.App@5c7fa833]" name="fillBasicInfo" duration-ms="6" started-at="2018-12-05T21:59:06Z" finished-at="2018-12-05T21:59:06Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:guru99.gittest.App@647e447]" name="fillBasicInfo" duration-ms="13" started-at="2018-12-06T06:43:17Z" finished-at="2018-12-06T06:43:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillBasicInfo -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:guru99.gittest.App@5c7fa833]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-05T21:59:06Z" finished-at="2018-12-05T21:59:06Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:guru99.gittest.App@647e447]" name="afterClass" is-config="true" duration-ms="1587" started-at="2018-12-06T06:43:17Z" finished-at="2018-12-06T06:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
